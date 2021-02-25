@@ -40,3 +40,5 @@ http://test.landgrey.me:8080/configs/<appId>/<cluster>/<namespaceName>
 脚本用法如下：
 
 Usage: Apollo_unauth.py -t <apollo_adminservice_url> and -c <apollo_configservice_url>
+
+参考文章：https://buaq.net/go-53399.html
