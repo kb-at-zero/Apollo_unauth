@@ -16,7 +16,7 @@ def get_response(uri):
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Connection": "close"
     }
-    return requests.get(uri, headers=headers, timeout=20, allow_redirects=False)
+    return requests.get(uri, headers=headers, timeout=20, verify=False, allow_redirects=False)
 
 
 def get_app_ids(uri):
