@@ -19,7 +19,6 @@ admin-service.access.tokens=098f6bcd4621d373xade4e832627b4f6
 有意思的是，默认 admin-service.access.control.enabled 值为 false，也就是默认不会开启此项功能。
 
 ## 0x03：漏洞利用
-由于网上没有漏洞细节，所以我下载了 Apollo 源码，分析了下几个服务的相关代码，下面给出一种利用方法。
 
 大致流程就是利用默认可未授权访问的 apollo-configservice 和 apollo-adminservice 服务，通过调用相关接口获取所有能够获取到的配置信息。
 
